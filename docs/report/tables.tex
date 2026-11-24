@@ -10,17 +10,17 @@
 \toprule
 problem & alg. & cost & steps & expanded & stored & mem KB & ms \\
 \midrule
-depot-$>$S4 & BFS & 30.0 & 12 & 165 & 195 & 16.9 & 2.91 \\
-depot-$>$S4 & UCS & 26.0 & 12 & 275 & 316 & 51.2 & 6.41 \\
-depot-$>$S4 & DLS(l=12) & 30.0 & 12 & 7142 & 60 & 3.7 & 167.99 \\
-depot-$>$S4 & IDS & 30.0 & 12 & 34003 & 60 & 3.8 & 812.22 \\
-depot-$>$S4 & Greedy & 30.0 & 12 & 12 & 30 & 7.2 & 0.89 \\
-depot-$>$S4 & A$^*$ & 26.0 & 12 & 128 & 161 & 40.0 & 4.86 \\
-full tour & BFS & 132.0 & 51 & 4123 & 4281 & 863.7 & 95.86 \\
-full tour & UCS & 111.0 & 61 & 5187 & 5330 & 1854.3 & 233.91 \\
-full tour & Greedy & 132.0 & 51 & 64 & 129 & 41.5 & 4.05 \\
-full tour & A$^*$ & 111.0 & 61 & 3436 & 3772 & 1735.8 & 158.99 \\
-full tour & IDS & inf & 0 & 550597 & 75 & 5.3 & 12932.76 \\
+depot-$>$S4 & BFS & 30.0 & 12 & 165 & 195 & 16.9 & 2.2 \\
+depot-$>$S4 & UCS & 26.0 & 12 & 275 & 316 & 51.2 & 5.12 \\
+depot-$>$S4 & DLS(l=12) & 30.0 & 12 & 7142 & 60 & 3.7 & 105.36 \\
+depot-$>$S4 & IDS & 30.0 & 12 & 34003 & 60 & 3.7 & 535.23 \\
+depot-$>$S4 & Greedy & 30.0 & 12 & 12 & 30 & 7.1 & 0.66 \\
+depot-$>$S4 & A$^*$ & 26.0 & 12 & 128 & 161 & 45.9 & 4.23 \\
+full tour & BFS & 132.0 & 51 & 4123 & 4281 & 1036.2 & 75.78 \\
+full tour & UCS & 111.0 & 61 & 5187 & 5330 & 1943.6 & 134.1 \\
+full tour & Greedy & 132.0 & 51 & 64 & 129 & 41.1 & 3.42 \\
+full tour & A$^*$ & 111.0 & 61 & 3436 & 3772 & 1840.5 & 168.52 \\
+full tour & IDS & inf & 0 & 550597 & 75 & 4.0 & 8686.09 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -35,12 +35,12 @@ full tour & IDS & inf & 0 & 550597 & 75 & 5.3 & 12932.76 \\
 \toprule
 heuristic & h(s0) & cost & expanded & ms & viol. & Greedy \\
 \midrule
-tunnel\_mst & 47.0 & 111.0 & 3436 & 226.6 & 0 & 132.0 \\
-mst\_plain & 60.0 & 116.0 & 2877 & 187.9 & 14 & 172.0 \\
-nearest & 14.0 & 116.0 & 4395 & 453.4 & 25 & 172.0 \\
-farthest & 24.0 & 116.0 & 3968 & 291.4 & 26 & 166.0 \\
-sum\_dstar & 56.0 & 113.0 & 3061 & 253.5 & 1308 & 157.0 \\
-zero & 0.0 & 111.0 & 5187 & 257.9 & 0 & 119.0 \\
+tunnel\_mst & 47.0 & 111.0 & 3436 & 186.2 & 0 & 132.0 \\
+mst\_plain & 60.0 & 116.0 & 2877 & 143.5 & 14 & 172.0 \\
+nearest & 14.0 & 116.0 & 4395 & 383.1 & 25 & 172.0 \\
+farthest & 24.0 & 116.0 & 3968 & 226.8 & 26 & 166.0 \\
+sum\_dstar & 56.0 & 113.0 & 3061 & 190.8 & 1308 & 157.0 \\
+zero & 0.0 & 111.0 & 5187 & 140.4 & 0 & 119.0 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -74,11 +74,11 @@ sum\_dstar & 150 & 0 & 0.792 & 0.502 \\
 \toprule
 variant & cost & expanded & time\_ms & gap & gap \% \\
 \midrule
-A$^*$ + tunnel\_mst (optimal) & 111.0 & 3436 & 163.3 & 0.0 & 0.0 \\
-A$^*$ + sum\_dstar & 113.0 & 3061 & 139.0 & 2.0 & 1.8 \\
-WA$^*$ w=2 + tunnel\_mst & 111.0 & 709 & 40.0 & 0.0 & 0.0 \\
-WA$^*$ w=3 + tunnel\_mst & 119.0 & 95 & 6.1 & 8.0 & 7.2 \\
-Greedy + tunnel\_mst & 132.0 & 64 & 5.8 & 21.0 & 18.9 \\
+A$^*$ + tunnel\_mst (optimal) & 111.0 & 3436 & 128.3 & 0.0 & 0.0 \\
+A$^*$ + sum\_dstar & 113.0 & 3061 & 109.7 & 2.0 & 1.8 \\
+WA$^*$ w=2 + tunnel\_mst & 111.0 & 709 & 28.4 & 0.0 & 0.0 \\
+WA$^*$ w=3 + tunnel\_mst & 119.0 & 95 & 4.8 & 8.0 & 7.2 \\
+Greedy + tunnel\_mst & 132.0 & 64 & 3.5 & 21.0 & 18.9 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -93,12 +93,12 @@ Greedy + tunnel\_mst & 132.0 & 64 & 5.8 & 21.0 & 18.9 \\
 \toprule
 node cap & A$^*$ ok & A$^*$ stored & IDS ok & IDS stored & IDS expanded & IDS ms \\
 \midrule
-25 & False & 27 & False & 26 & 189 & 3.8 \\
-50 & False & 51 & False & 51 & 12627 & 300.4 \\
-100 & False & 101 & True & 60 & 34003 & 908.7 \\
-200 & True & 161 & True & 60 & 34003 & 810.0 \\
-400 & True & 161 & True & 60 & 34003 & 810.1 \\
-800 & True & 161 & True & 60 & 34003 & 838.4 \\
+25 & False & 27 & False & 26 & 189 & 3.1 \\
+50 & False & 51 & False & 51 & 12627 & 202.7 \\
+100 & False & 101 & True & 60 & 34003 & 526.3 \\
+200 & True & 161 & True & 60 & 34003 & 528.7 \\
+400 & True & 161 & True & 60 & 34003 & 515.0 \\
+800 & True & 161 & True & 60 & 34003 & 592.1 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -244,10 +244,10 @@ flood\_duration=25 & 0.13 [0.05,0.30] & 1.57 $\pm$ 0.29 & 1.83 $\pm$ 0.26 & 188.
 \toprule
 heuristic & A$^*$ expanded & cost & time ms & suboptimal runs & mean gap \\
 \midrule
-tunnel\_mst & 1735 $\pm$ 350 & 74.3 $\pm$ 7.4 & 22.1 $\pm$ 4.7 & 0 & 0.0 \\
-mst\_plain & 1415 $\pm$ 319 & 74.6 $\pm$ 7.4 & 14.3 $\pm$ 3.2 & 4 & 0.37 \\
-nearest & 2929 $\pm$ 339 & 74.7 $\pm$ 7.3 & 29.9 $\pm$ 6.7 & 4 & 0.4 \\
-zero & 3968 $\pm$ 374 & 74.3 $\pm$ 7.4 & 22.0 $\pm$ 2.1 & 0 & 0.0 \\
+tunnel\_mst & 1735 $\pm$ 350 & 74.3 $\pm$ 7.4 & 21.9 $\pm$ 4.4 & 0 & 0.0 \\
+mst\_plain & 1415 $\pm$ 319 & 74.6 $\pm$ 7.4 & 15.9 $\pm$ 3.5 & 4 & 0.37 \\
+nearest & 2929 $\pm$ 339 & 74.7 $\pm$ 7.3 & 28.6 $\pm$ 4.7 & 4 & 0.4 \\
+zero & 3968 $\pm$ 374 & 74.3 $\pm$ 7.4 & 31.1 $\pm$ 6.0 & 0 & 0.0 \\
 \bottomrule
 \end{tabular}
 \end{table}
