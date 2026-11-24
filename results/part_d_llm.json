@@ -8,8 +8,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 111.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 3,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 3,
+      "raw cost": 111.0
     },
     {
       "id": 2,
@@ -17,8 +21,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 22.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 1,
+      "validated cost": 22.0,
+      "raw ok": true,
+      "raw calls": 1,
+      "raw cost": 22.0
     },
     {
       "id": 3,
@@ -26,8 +34,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 53.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": false,
+      "validated calls": 4,
+      "validated cost": 30.0,
+      "raw ok": false,
+      "raw calls": 5,
+      "raw cost": 30.0
     },
     {
       "id": 4,
@@ -35,8 +47,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 132.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 1,
+      "validated cost": 132.0,
+      "raw ok": true,
+      "raw calls": 3,
+      "raw cost": 132.0
     },
     {
       "id": 5,
@@ -44,8 +60,12 @@
       "direct ok": true,
       "direct calls": 2,
       "direct cost": 111.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 2,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 2,
+      "raw cost": 111.0
     },
     {
       "id": 6,
@@ -53,8 +73,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 128.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": false,
+      "validated calls": 6,
+      "validated cost": 51.0,
+      "raw ok": false,
+      "raw calls": 7,
+      "raw cost": 51.0
     },
     {
       "id": 7,
@@ -62,8 +86,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 123.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": false,
+      "validated calls": 6,
+      "validated cost": 17.0,
+      "raw ok": false,
+      "raw calls": 6,
+      "raw cost": 17.0
     },
     {
       "id": 8,
@@ -71,8 +99,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": null,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 2,
+      "validated cost": null,
+      "raw ok": true,
+      "raw calls": 2,
+      "raw cost": null
     },
     {
       "id": 9,
@@ -80,8 +112,12 @@
       "direct ok": true,
       "direct calls": 3,
       "direct cost": 111.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 3,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 3,
+      "raw cost": 111.0
     },
     {
       "id": 10,
@@ -89,8 +125,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 111.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 3,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 3,
+      "raw cost": 111.0
     },
     {
       "id": 11,
@@ -98,8 +138,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 90.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 5,
+      "validated cost": 90.0,
+      "raw ok": true,
+      "raw calls": 5,
+      "raw cost": 90.0
     },
     {
       "id": 12,
@@ -107,8 +151,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 36.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 8,
+      "validated cost": 36.0,
+      "raw ok": true,
+      "raw calls": 6,
+      "raw cost": 36.0
     },
     {
       "id": 13,
@@ -116,8 +164,12 @@
       "direct ok": true,
       "direct calls": 2,
       "direct cost": 111.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 4,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 4,
+      "raw cost": 111.0
     },
     {
       "id": 14,
@@ -125,8 +177,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": null,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 4,
+      "validated cost": 53.0,
+      "raw ok": true,
+      "raw calls": 4,
+      "raw cost": 53.0
     },
     {
       "id": 15,
@@ -134,8 +190,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": null,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 3,
+      "validated cost": null,
+      "raw ok": true,
+      "raw calls": 8,
+      "raw cost": null
     },
     {
       "id": 16,
@@ -143,8 +203,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": null,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 5,
+      "validated cost": 111.0,
+      "raw ok": true,
+      "raw calls": 4,
+      "raw cost": 111.0
     },
     {
       "id": 17,
@@ -152,8 +216,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": null,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 0,
+      "validated cost": null,
+      "raw ok": true,
+      "raw calls": 0,
+      "raw cost": null
     },
     {
       "id": 18,
@@ -161,8 +229,12 @@
       "direct ok": true,
       "direct calls": 2,
       "direct cost": 128.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 3,
+      "validated cost": 128.0,
+      "raw ok": false,
+      "raw calls": 3,
+      "raw cost": 42.0
     },
     {
       "id": 19,
@@ -170,8 +242,12 @@
       "direct ok": true,
       "direct calls": 1,
       "direct cost": 135.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": false,
+      "validated calls": 4,
+      "validated cost": 56.0,
+      "raw ok": false,
+      "raw calls": 4,
+      "raw cost": 56.0
     },
     {
       "id": 20,
@@ -179,8 +255,12 @@
       "direct ok": true,
       "direct calls": 2,
       "direct cost": 90.0,
-      "validated ok": "not run",
-      "raw ok": "not run"
+      "validated ok": true,
+      "validated calls": 2,
+      "validated cost": 90.0,
+      "raw ok": true,
+      "raw calls": 2,
+      "raw cost": 90.0
     }
   ],
   "summary": [
@@ -192,20 +272,517 @@
     },
     {
       "method": "LLM (validated)",
-      "runs": 0,
-      "success": "not run (no key, no cache)",
-      "mean tool calls": ""
+      "runs": 20,
+      "success": "0.80 [0.58, 0.92]",
+      "mean tool calls": 3.45
     },
     {
       "method": "LLM (raw)",
-      "runs": 0,
-      "success": "not run (no key, no cache)",
-      "mean tool calls": ""
+      "runs": 20,
+      "success": "0.75 [0.53, 0.89]",
+      "mean tool calls": 3.75
     }
   ],
-  "error_log": [],
+  "error_log": [
+    {
+      "id": 3,
+      "mode": "validated",
+      "request": "Deliver S1 and S4 only, cheapest route.",
+      "ignored_constraints": [
+        "stops ['S4'] != ['S1', 'S4']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 3,
+      "mode": "raw",
+      "request": "Deliver S1 and S4 only, cheapest route.",
+      "ignored_constraints": [
+        "stops ['S4'] != ['S1', 'S4']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 6,
+      "mode": "validated",
+      "request": "Deliver S3 first, then the rest, as cheaply as possible.",
+      "ignored_constraints": [
+        "stops ['S2', 'S4'] != ['S1', 'S2', 'S3', 'S4']",
+        "order ['S4', 'S2'] does not start with ['S3']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 6,
+      "mode": "raw",
+      "request": "Deliver S3 first, then the rest, as cheaply as possible.",
+      "ignored_constraints": [
+        "stops ['S2', 'S4'] != ['S1', 'S2', 'S3', 'S4']",
+        "order ['S4', 'S2'] does not start with ['S3']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 7,
+      "mode": "validated",
+      "request": "Deliver S2, then S1, then the remaining stops.",
+      "ignored_constraints": [
+        "stops ['S3'] != ['S1', 'S2', 'S3', 'S4']",
+        "order ['S3'] does not start with ['S2', 'S1']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 7,
+      "mode": "raw",
+      "request": "Deliver S2, then S1, then the remaining stops.",
+      "ignored_constraints": [
+        "stops ['S3'] != ['S1', 'S2', 'S3', 'S4']",
+        "order ['S3'] does not start with ['S2', 'S1']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 18,
+      "mode": "raw",
+      "request": "Finish S3 before the rival can flood the fords: deliver S3 first, then simulate until the episode ends and report delivered and stolen parcels.",
+      "ignored_constraints": [
+        "stops ['S3'] != ['S1', 'S2', 'S3', 'S4']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 19,
+      "mode": "validated",
+      "request": "Deliver S4 first, then S2, under cost 140, using our admissible heuristic.",
+      "ignored_constraints": [
+        "stops ['S2', 'S4'] != ['S1', 'S2', 'S3', 'S4']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    },
+    {
+      "id": 19,
+      "mode": "raw",
+      "request": "Deliver S4 first, then S2, under cost 140, using our admissible heuristic.",
+      "ignored_constraints": [
+        "stops ['S2', 'S4'] != ['S1', 'S2', 'S3', 'S4']"
+      ],
+      "wrong_tool": [],
+      "invented_args": []
+    }
+  ],
   "per_mode": {
-    "validated": [],
-    "raw": []
+    "validated": [
+      {
+        "id": 1,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3365,
+          "output_tokens": 660
+        }
+      },
+      {
+        "id": 2,
+        "ok": true,
+        "calls": 1,
+        "cost": 22.0,
+        "tokens": {
+          "input_tokens": 2950,
+          "output_tokens": 399
+        }
+      },
+      {
+        "id": 3,
+        "ok": false,
+        "calls": 4,
+        "cost": 30.0,
+        "tokens": {
+          "input_tokens": 10252,
+          "output_tokens": 1107
+        }
+      },
+      {
+        "id": 4,
+        "ok": true,
+        "calls": 1,
+        "cost": 132.0,
+        "tokens": {
+          "input_tokens": 3039,
+          "output_tokens": 563
+        }
+      },
+      {
+        "id": 5,
+        "ok": true,
+        "calls": 2,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3220,
+          "output_tokens": 791
+        }
+      },
+      {
+        "id": 6,
+        "ok": false,
+        "calls": 6,
+        "cost": 51.0,
+        "tokens": {
+          "input_tokens": 12372,
+          "output_tokens": 1373
+        }
+      },
+      {
+        "id": 7,
+        "ok": false,
+        "calls": 6,
+        "cost": 17.0,
+        "tokens": {
+          "input_tokens": 12121,
+          "output_tokens": 1231
+        }
+      },
+      {
+        "id": 8,
+        "ok": true,
+        "calls": 2,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 2861,
+          "output_tokens": 234
+        }
+      },
+      {
+        "id": 9,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 6105,
+          "output_tokens": 810
+        }
+      },
+      {
+        "id": 10,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3313,
+          "output_tokens": 812
+        }
+      },
+      {
+        "id": 11,
+        "ok": true,
+        "calls": 5,
+        "cost": 90.0,
+        "tokens": {
+          "input_tokens": 12523,
+          "output_tokens": 1451
+        }
+      },
+      {
+        "id": 12,
+        "ok": true,
+        "calls": 8,
+        "cost": 36.0,
+        "tokens": {
+          "input_tokens": 18484,
+          "output_tokens": 1546
+        }
+      },
+      {
+        "id": 13,
+        "ok": true,
+        "calls": 4,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 5543,
+          "output_tokens": 841
+        }
+      },
+      {
+        "id": 14,
+        "ok": true,
+        "calls": 4,
+        "cost": 53.0,
+        "tokens": {
+          "input_tokens": 5753,
+          "output_tokens": 1095
+        }
+      },
+      {
+        "id": 15,
+        "ok": true,
+        "calls": 3,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 3185,
+          "output_tokens": 889
+        }
+      },
+      {
+        "id": 16,
+        "ok": true,
+        "calls": 5,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 5991,
+          "output_tokens": 1081
+        }
+      },
+      {
+        "id": 17,
+        "ok": true,
+        "calls": 0,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 1288,
+          "output_tokens": 385
+        }
+      },
+      {
+        "id": 18,
+        "ok": true,
+        "calls": 3,
+        "cost": 128.0,
+        "tokens": {
+          "input_tokens": 5994,
+          "output_tokens": 948
+        }
+      },
+      {
+        "id": 19,
+        "ok": false,
+        "calls": 4,
+        "cost": 56.0,
+        "tokens": {
+          "input_tokens": 9911,
+          "output_tokens": 1015
+        }
+      },
+      {
+        "id": 20,
+        "ok": true,
+        "calls": 2,
+        "cost": 90.0,
+        "tokens": {
+          "input_tokens": 5066,
+          "output_tokens": 840
+        }
+      }
+    ],
+    "raw": [
+      {
+        "id": 1,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3377,
+          "output_tokens": 677
+        }
+      },
+      {
+        "id": 2,
+        "ok": true,
+        "calls": 1,
+        "cost": 22.0,
+        "tokens": {
+          "input_tokens": 3008,
+          "output_tokens": 545
+        }
+      },
+      {
+        "id": 3,
+        "ok": false,
+        "calls": 5,
+        "cost": 30.0,
+        "tokens": {
+          "input_tokens": 10653,
+          "output_tokens": 1117
+        }
+      },
+      {
+        "id": 4,
+        "ok": true,
+        "calls": 3,
+        "cost": 132.0,
+        "tokens": {
+          "input_tokens": 3218,
+          "output_tokens": 588
+        }
+      },
+      {
+        "id": 5,
+        "ok": true,
+        "calls": 2,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3196,
+          "output_tokens": 653
+        }
+      },
+      {
+        "id": 6,
+        "ok": false,
+        "calls": 7,
+        "cost": 51.0,
+        "tokens": {
+          "input_tokens": 12956,
+          "output_tokens": 1663
+        }
+      },
+      {
+        "id": 7,
+        "ok": false,
+        "calls": 6,
+        "cost": 17.0,
+        "tokens": {
+          "input_tokens": 17283,
+          "output_tokens": 1448
+        }
+      },
+      {
+        "id": 8,
+        "ok": true,
+        "calls": 2,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 2861,
+          "output_tokens": 207
+        }
+      },
+      {
+        "id": 9,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 5978,
+          "output_tokens": 684
+        }
+      },
+      {
+        "id": 10,
+        "ok": true,
+        "calls": 3,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 3294,
+          "output_tokens": 626
+        }
+      },
+      {
+        "id": 11,
+        "ok": true,
+        "calls": 5,
+        "cost": 90.0,
+        "tokens": {
+          "input_tokens": 12635,
+          "output_tokens": 1351
+        }
+      },
+      {
+        "id": 12,
+        "ok": true,
+        "calls": 6,
+        "cost": 36.0,
+        "tokens": {
+          "input_tokens": 12546,
+          "output_tokens": 1437
+        }
+      },
+      {
+        "id": 13,
+        "ok": true,
+        "calls": 4,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 5657,
+          "output_tokens": 879
+        }
+      },
+      {
+        "id": 14,
+        "ok": true,
+        "calls": 4,
+        "cost": 53.0,
+        "tokens": {
+          "input_tokens": 7399,
+          "output_tokens": 1145
+        }
+      },
+      {
+        "id": 15,
+        "ok": true,
+        "calls": 8,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 8810,
+          "output_tokens": 1807
+        }
+      },
+      {
+        "id": 16,
+        "ok": true,
+        "calls": 4,
+        "cost": 111.0,
+        "tokens": {
+          "input_tokens": 5770,
+          "output_tokens": 1140
+        }
+      },
+      {
+        "id": 17,
+        "ok": true,
+        "calls": 0,
+        "cost": null,
+        "tokens": {
+          "input_tokens": 1288,
+          "output_tokens": 390
+        }
+      },
+      {
+        "id": 18,
+        "ok": false,
+        "calls": 3,
+        "cost": 42.0,
+        "tokens": {
+          "input_tokens": 5744,
+          "output_tokens": 851
+        }
+      },
+      {
+        "id": 19,
+        "ok": false,
+        "calls": 4,
+        "cost": 56.0,
+        "tokens": {
+          "input_tokens": 8451,
+          "output_tokens": 1194
+        }
+      },
+      {
+        "id": 20,
+        "ok": true,
+        "calls": 2,
+        "cost": 90.0,
+        "tokens": {
+          "input_tokens": 5066,
+          "output_tokens": 857
+        }
+      }
+    ]
   }
 }

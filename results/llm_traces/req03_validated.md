@@ -1,0 +1,41 @@
+# Request 3 (validated)
+
+Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
+
+> Deliver S1 and S4 only, cheapest route.
+
+**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "stops": ["S1", "S4"]})`
+
+**Observation (Sense):** `{"ok": true, "algorithm": "ucs", "heuristic": "zero", "cost": 53.0, "steps": 29, "delivery_order": [{"stop": "S4", "step": 12}, {"stop": "S1", "step": 29}], "terrain_steps": {"road": 11, "grass": 9, "mud": 9}, "ford_steps": [], "stops": ["S1", "S4"], "avoid_terrain": [], "nodes_expanded": 932, "uses_tunnel": true}`
+
+**Action (Act):** `simulate({"steps": 29})`
+
+**Observation (Sense):** `{"t": 29, "position": [19, 10], "rival": [22, 17], "cost_so_far": 41.0, "delivered": ["S1"], "stolen": ["S3"], "dam_used": false, "flood_steps_left": 0, "finished": false, "events": ["t=6: slip: S -> W, now at (12, 8)", "t=18: delivered at (21, 5)", "t=22: slip: E -> S, now at (22, 7)", "t=23: slip: E -> N, now at (21, 7)", "t=28: rival stole parcel at (22, 17)"]}`
+
+**Thought (Reason):** S1 is delivered, but S4 is not yet. Slips pushed the route off course, so I'm replanning the remaining stop.
+
+**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "stops": ["S4"]})`
+
+**Observation (Sense):** `{"ok": true, "algorithm": "ucs", "heuristic": "zero", "cost": 30.0, "steps": 18, "delivery_order": [{"stop": "S4", "step": 18}], "terrain_steps": {"road": 8, "grass": 7, "mud": 3}, "ford_steps": [], "stops": ["S4"], "avoid_terrain": [], "nodes_expanded": 277, "uses_tunnel": true}`
+
+**Action (Act):** `simulate({"steps": 18})`
+
+**Observation (Sense):** `{"t": 47, "position": [17, 20], "rival": [16, 20], "cost_so_far": 70.0, "delivered": ["S1"], "stolen": ["S3", "S4"], "dam_used": false, "flood_steps_left": 0, "finished": false, "events": ["t=30: slip: N -> E, now at (18, 11)", "t=35: slip: E -> S, now at (18, 15)", "t=40: rival stole parcel at (15, 18)", "t=43: slip: N -> E, now at (18, 20)"]}`
+
+**Thought (Reason):** I delivered S1, but S4 was not delivered: the rival stole its parcel at (15, 18) at t=40.
+
+- **S1 (21, 5):** delivered at t=18.
+- **S4 (15, 18):** stolen by the rival. The agent is now at (17, 20) and the rival at (16, 20), so I did not try to recover it.
+- **Cost:** the plan was 53. Slips and the replan brought the actual spend to 70 so far, and the S4 leg was not completed.
+
+The initial plan for both stops was cost 53, with no fords and tunnel use. Repeated slips (t=6, 22, 23, 30, 35, 43) pushed the route off course. The rival also stole S3 at t=28, which was not part of your request.
+
+**Final answer:**
+
+I delivered S1, but S4 was not delivered: the rival stole its parcel at (15, 18) at t=40.
+
+- **S1 (21, 5):** delivered at t=18.
+- **S4 (15, 18):** stolen by the rival. The agent is now at (17, 20) and the rival at (16, 20), so I did not try to recover it.
+- **Cost:** the plan was 53. Slips and the replan brought the actual spend to 70 so far, and the S4 leg was not completed.
+
+The initial plan for both stops was cost 53, with no fords and tunnel use. Repeated slips (t=6, 22, 23, 30, 35, 43) pushed the route off course. The rival also stole S3 at t=28, which was not part of your request.

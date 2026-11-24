@@ -1,0 +1,47 @@
+# Request 20 (raw)
+
+Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
+
+> Use weighted A* to deliver S1, S2 and S4 without fords, then check the flood status of that plan.
+
+**Action (Act):** `plan_route({"algorithm": "wastar", "heuristic": "tunnel_mst", "avoid_terrain": ["ford"], "stops": ["S1", "S2", "S4"]})`
+
+**Observation (Sense):** `{"ok": true, "algorithm": "wastar", "heuristic": "tunnel_mst", "cost": 90.0, "steps": 58, "delivery_order": [{"stop": "S1", "step": 19}, {"stop": "S4", "step": 36}, {"stop": "S2", "step": 58}], "terrain_steps": {"road": 32, "grass": 17, "mud": 9}, "ford_steps": [], "stops": ["S1", "S2", "S4"], "avoid_terrain": ["ford"], "nodes_expanded": 364, "uses_tunnel": true}`
+
+**Action (Act):** `flood_status({})`
+
+**Observation (Sense):** `{"dam_used": false, "flood_steps_left": 0, "flood_duration": 15, "stops_that_need_a_ford": ["S2", "S3"], "stop_cells_that_are_fords": ["S3"], "current_plan_ford_steps": []}`
+
+**Thought (Reason):** The weighted A* plan delivers S1, S2 and S4 without touching any ford. The plan cost is **90**.
+
+**Plan (weighted A*, tunnel_mst heuristic, fords avoided):**
+- S1 delivered at step 19
+- S4 delivered at step 36
+- S2 delivered at step 58
+- 58 steps total: 32 road, 17 grass, 9 mud, with teleport tunnels used
+- 364 nodes expanded
+
+**Flood status for this plan:**
+- The rival has not used its dam charge, so no flooding is active (0 flood steps left, 15-step duration if triggered).
+- The current plan has zero ford steps, so it is not affected by a flood.
+- The status report lists S2 and S3 as stops that "need a ford." S3 is itself a ford cell. For S2, the report conflicts with the plan, which reaches S2 at step 58 without crossing any ford. I trust the plan's route, but the flood report's wording for S2 is worth checking if the route changes.
+
+I did not run the simulation, since you asked only for the plan and its flood check.
+
+**Final answer:**
+
+The weighted A* plan delivers S1, S2 and S4 without touching any ford. The plan cost is **90**.
+
+**Plan (weighted A*, tunnel_mst heuristic, fords avoided):**
+- S1 delivered at step 19
+- S4 delivered at step 36
+- S2 delivered at step 58
+- 58 steps total: 32 road, 17 grass, 9 mud, with teleport tunnels used
+- 364 nodes expanded
+
+**Flood status for this plan:**
+- The rival has not used its dam charge, so no flooding is active (0 flood steps left, 15-step duration if triggered).
+- The current plan has zero ford steps, so it is not affected by a flood.
+- The status report lists S2 and S3 as stops that "need a ford." S3 is itself a ford cell. For S2, the report conflicts with the plan, which reaches S2 at step 58 without crossing any ford. I trust the plan's route, but the flood report's wording for S2 is worth checking if the route changes.
+
+I did not run the simulation, since you asked only for the plan and its flood check.

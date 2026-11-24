@@ -10,8 +10,8 @@
       "expanded": 146,
       "generated": 466,
       "max_stored": 174,
-      "peak_mem_kb": 17.0,
-      "time_ms": 4.01,
+      "peak_mem_kb": 16.9,
+      "time_ms": 2.1,
       "note": "",
       "problem": "depot->S2"
     },
@@ -23,8 +23,8 @@
       "expanded": 211,
       "generated": 680,
       "max_stored": 249,
-      "peak_mem_kb": 50.2,
-      "time_ms": 8.07,
+      "peak_mem_kb": 51.7,
+      "time_ms": 5.56,
       "note": "",
       "problem": "depot->S2"
     },
@@ -36,8 +36,8 @@
       "expanded": 4469,
       "generated": 15424,
       "max_stored": 55,
-      "peak_mem_kb": 3.8,
-      "time_ms": 108.21,
+      "peak_mem_kb": 3.7,
+      "time_ms": 72.59,
       "note": "",
       "problem": "depot->S2"
     },
@@ -49,8 +49,8 @@
       "expanded": 16997,
       "generated": 58258,
       "max_stored": 55,
-      "peak_mem_kb": 3.9,
-      "time_ms": 379.69,
+      "peak_mem_kb": 3.8,
+      "time_ms": 291.99,
       "note": "depth 11",
       "problem": "depot->S2"
     },
@@ -62,8 +62,8 @@
       "expanded": 11,
       "generated": 38,
       "max_stored": 28,
-      "peak_mem_kb": 7.1,
-      "time_ms": 0.69,
+      "peak_mem_kb": 7.0,
+      "time_ms": 0.62,
       "note": "",
       "problem": "depot->S2"
     },
@@ -75,8 +75,8 @@
       "expanded": 70,
       "generated": 225,
       "max_stored": 96,
-      "peak_mem_kb": 29.6,
-      "time_ms": 2.52,
+      "peak_mem_kb": 29.5,
+      "time_ms": 2.22,
       "note": "",
       "problem": "depot->S2"
     },
@@ -89,7 +89,7 @@
       "generated": 526,
       "max_stored": 195,
       "peak_mem_kb": 16.9,
-      "time_ms": 2.91,
+      "time_ms": 2.2,
       "note": "",
       "problem": "depot->S4"
     },
@@ -102,7 +102,7 @@
       "generated": 877,
       "max_stored": 316,
       "peak_mem_kb": 51.2,
-      "time_ms": 6.41,
+      "time_ms": 5.12,
       "note": "",
       "problem": "depot->S4"
     },
@@ -115,7 +115,7 @@
       "generated": 23709,
       "max_stored": 60,
       "peak_mem_kb": 3.7,
-      "time_ms": 167.99,
+      "time_ms": 105.36,
       "note": "",
       "problem": "depot->S4"
     },
@@ -127,8 +127,8 @@
       "expanded": 34003,
       "generated": 116053,
       "max_stored": 60,
-      "peak_mem_kb": 3.8,
-      "time_ms": 812.22,
+      "peak_mem_kb": 3.7,
+      "time_ms": 535.23,
       "note": "depth 12",
       "problem": "depot->S4"
     },
@@ -140,8 +140,8 @@
       "expanded": 12,
       "generated": 43,
       "max_stored": 30,
-      "peak_mem_kb": 7.2,
-      "time_ms": 0.89,
+      "peak_mem_kb": 7.1,
+      "time_ms": 0.66,
       "note": "",
       "problem": "depot->S4"
     },
@@ -153,8 +153,8 @@
       "expanded": 128,
       "generated": 430,
       "max_stored": 161,
-      "peak_mem_kb": 40.0,
-      "time_ms": 4.86,
+      "peak_mem_kb": 45.9,
+      "time_ms": 4.23,
       "note": "",
       "problem": "depot->S4"
     },
@@ -166,8 +166,8 @@
       "expanded": 307,
       "generated": 966,
       "max_stored": 331,
-      "peak_mem_kb": 16.9,
-      "time_ms": 5.43,
+      "peak_mem_kb": 16.8,
+      "time_ms": 4.06,
       "note": "",
       "problem": "depot->S1"
     },
@@ -179,8 +179,8 @@
       "expanded": 280,
       "generated": 890,
       "max_stored": 318,
-      "peak_mem_kb": 42.7,
-      "time_ms": 6.3,
+      "peak_mem_kb": 41.9,
+      "time_ms": 4.98,
       "note": "",
       "problem": "depot->S1"
     },
@@ -192,8 +192,8 @@
       "expanded": 284020,
       "generated": 977505,
       "max_stored": 85,
-      "peak_mem_kb": 6.1,
-      "time_ms": 6462.79,
+      "peak_mem_kb": 6.0,
+      "time_ms": 4575.91,
       "note": "",
       "problem": "depot->S1"
     },
@@ -205,8 +205,8 @@
       "expanded": 1467034,
       "generated": 5025958,
       "max_stored": 85,
-      "peak_mem_kb": 6.2,
-      "time_ms": 35503.67,
+      "peak_mem_kb": 6.1,
+      "time_ms": 23336.95,
       "note": "depth 17",
       "problem": "depot->S1"
     },
@@ -219,7 +219,7 @@
       "generated": 58,
       "max_stored": 38,
       "peak_mem_kb": 8.0,
-      "time_ms": 0.94,
+      "time_ms": 0.87,
       "note": "",
       "problem": "depot->S1"
     },
@@ -232,7 +232,7 @@
       "generated": 277,
       "max_stored": 117,
       "peak_mem_kb": 35.8,
-      "time_ms": 2.96,
+      "time_ms": 2.63,
       "note": "",
       "problem": "depot->S1"
     }
@@ -246,8 +246,8 @@
       "expanded": 4123,
       "generated": 12724,
       "max_stored": 4281,
-      "peak_mem_kb": 863.7,
-      "time_ms": 95.86,
+      "peak_mem_kb": 1036.2,
+      "time_ms": 75.78,
       "note": "",
       "problem": "full tour"
     },
@@ -259,8 +259,8 @@
       "expanded": 5187,
       "generated": 15907,
       "max_stored": 5330,
-      "peak_mem_kb": 1854.3,
-      "time_ms": 233.91,
+      "peak_mem_kb": 1943.6,
+      "time_ms": 134.1,
       "note": "",
       "problem": "full tour"
     },
@@ -272,8 +272,8 @@
       "expanded": 64,
       "generated": 200,
       "max_stored": 129,
-      "peak_mem_kb": 41.5,
-      "time_ms": 4.05,
+      "peak_mem_kb": 41.1,
+      "time_ms": 3.42,
       "note": "",
       "problem": "full tour"
     },
@@ -285,8 +285,8 @@
       "expanded": 3436,
       "generated": 10617,
       "max_stored": 3772,
-      "peak_mem_kb": 1735.8,
-      "time_ms": 158.99,
+      "peak_mem_kb": 1840.5,
+      "time_ms": 168.52,
       "note": "",
       "problem": "full tour"
     },
@@ -298,8 +298,8 @@
       "expanded": 550597,
       "generated": 1884212,
       "max_stored": 75,
-      "peak_mem_kb": 5.3,
-      "time_ms": 12932.76,
+      "peak_mem_kb": 4.0,
+      "time_ms": 8686.09,
       "note": "gave up at depth 15 (>500000 expansions)",
       "problem": "full tour"
     }
@@ -311,8 +311,8 @@
       "h(start)": 47.0,
       "A* cost": 111.0,
       "A* expanded": 3436,
-      "A* ms": 226.6,
-      "A* peak kb": 1828.9,
+      "A* ms": 186.2,
+      "A* peak kb": 1945.7,
       "consistency viol.": 0,
       "edges checked": 10617,
       "Greedy cost": 132.0,
@@ -324,8 +324,8 @@
       "h(start)": 60.0,
       "A* cost": 116.0,
       "A* expanded": 2877,
-      "A* ms": 187.9,
-      "A* peak kb": 1534.1,
+      "A* ms": 143.5,
+      "A* peak kb": 1617.3,
       "consistency viol.": 14,
       "edges checked": 8822,
       "Greedy cost": 172.0,
@@ -337,8 +337,8 @@
       "h(start)": 14.0,
       "A* cost": 116.0,
       "A* expanded": 4395,
-      "A* ms": 453.4,
-      "A* peak kb": 1263.5,
+      "A* ms": 383.1,
+      "A* peak kb": 1344.9,
       "consistency viol.": 25,
       "edges checked": 13478,
       "Greedy cost": 172.0,
@@ -350,8 +350,8 @@
       "h(start)": 24.0,
       "A* cost": 116.0,
       "A* expanded": 3968,
-      "A* ms": 291.4,
-      "A* peak kb": 1190.7,
+      "A* ms": 226.8,
+      "A* peak kb": 1263.7,
       "consistency viol.": 26,
       "edges checked": 12259,
       "Greedy cost": 166.0,
@@ -363,8 +363,8 @@
       "h(start)": 56.0,
       "A* cost": 113.0,
       "A* expanded": 3061,
-      "A* ms": 253.5,
-      "A* peak kb": 1239.6,
+      "A* ms": 190.8,
+      "A* peak kb": 1307.9,
       "consistency viol.": 1308,
       "edges checked": 9507,
       "Greedy cost": 157.0,
@@ -376,8 +376,8 @@
       "h(start)": 0.0,
       "A* cost": 111.0,
       "A* expanded": 5187,
-      "A* ms": 257.9,
-      "A* peak kb": 1854.3,
+      "A* ms": 140.4,
+      "A* peak kb": 1942.2,
       "consistency viol.": 0,
       "edges checked": 15907,
       "Greedy cost": 119.0,
@@ -389,8 +389,8 @@
       "h(start)": 47.0,
       "A* cost": 111.0,
       "A* expanded": 4470,
-      "A* ms": 350.0,
-      "A* peak kb": 1971.5,
+      "A* ms": 230.6,
+      "A* peak kb": 2101.3,
       "consistency viol.": 0,
       "edges checked": 14889,
       "Greedy cost": 134.0,
@@ -402,8 +402,8 @@
       "h(start)": 60.0,
       "A* cost": 118.0,
       "A* expanded": 4148,
-      "A* ms": 264.4,
-      "A* peak kb": 1838.6,
+      "A* ms": 224.8,
+      "A* peak kb": 1956.1,
       "consistency viol.": 31,
       "edges checked": 13831,
       "Greedy cost": 183.0,
@@ -415,8 +415,8 @@
       "h(start)": 14.0,
       "A* cost": 118.0,
       "A* expanded": 5571,
-      "A* ms": 411.9,
-      "A* peak kb": 2296.5,
+      "A* ms": 287.3,
+      "A* peak kb": 2402.3,
       "consistency viol.": 40,
       "edges checked": 18179,
       "Greedy cost": 183.0,
@@ -428,8 +428,8 @@
       "h(start)": 24.0,
       "A* cost": 118.0,
       "A* expanded": 5194,
-      "A* ms": 381.3,
-      "A* peak kb": 1925.2,
+      "A* ms": 296.7,
+      "A* peak kb": 2022.0,
       "consistency viol.": 41,
       "edges checked": 17114,
       "Greedy cost": 169.0,
@@ -441,8 +441,8 @@
       "h(start)": 56.0,
       "A* cost": 114.0,
       "A* expanded": 4333,
-      "A* ms": 375.3,
-      "A* peak kb": 1542.8,
+      "A* ms": 317.5,
+      "A* peak kb": 1643.6,
       "consistency viol.": 2457,
       "edges checked": 14524,
       "Greedy cost": 150.0,
@@ -454,8 +454,8 @@
       "h(start)": 0.0,
       "A* cost": 111.0,
       "A* expanded": 6222,
-      "A* ms": 246.1,
-      "A* peak kb": 2304.5,
+      "A* ms": 221.0,
+      "A* peak kb": 2423.1,
       "consistency viol.": 0,
       "edges checked": 20187,
       "Greedy cost": 119.0,
@@ -504,7 +504,7 @@
       "variant": "A* + tunnel_mst (optimal)",
       "cost": 111.0,
       "expanded": 3436,
-      "time_ms": 163.3,
+      "time_ms": 128.3,
       "gap": 0.0,
       "gap %": 0.0
     },
@@ -512,7 +512,7 @@
       "variant": "A* + sum_dstar",
       "cost": 113.0,
       "expanded": 3061,
-      "time_ms": 139.0,
+      "time_ms": 109.7,
       "gap": 2.0,
       "gap %": 1.8
     },
@@ -520,7 +520,7 @@
       "variant": "WA* w=2 + tunnel_mst",
       "cost": 111.0,
       "expanded": 709,
-      "time_ms": 40.0,
+      "time_ms": 28.4,
       "gap": 0.0,
       "gap %": 0.0
     },
@@ -528,7 +528,7 @@
       "variant": "WA* w=3 + tunnel_mst",
       "cost": 119.0,
       "expanded": 95,
-      "time_ms": 6.1,
+      "time_ms": 4.8,
       "gap": 8.0,
       "gap %": 7.2
     },
@@ -536,7 +536,7 @@
       "variant": "Greedy + tunnel_mst",
       "cost": 132.0,
       "expanded": 64,
-      "time_ms": 5.8,
+      "time_ms": 3.5,
       "gap": 21.0,
       "gap %": 18.9
     }
@@ -552,7 +552,7 @@
       "IDS cost": Infinity,
       "IDS stored": 26,
       "IDS expanded": 189,
-      "IDS ms": 6.8
+      "IDS ms": 3.2
     },
     {
       "problem": "depot->S2",
@@ -564,7 +564,7 @@
       "IDS cost": Infinity,
       "IDS stored": 51,
       "IDS expanded": 12627,
-      "IDS ms": 351.8
+      "IDS ms": 200.7
     },
     {
       "problem": "depot->S2",
@@ -576,7 +576,7 @@
       "IDS cost": 34.0,
       "IDS stored": 55,
       "IDS expanded": 16997,
-      "IDS ms": 382.1
+      "IDS ms": 261.9
     },
     {
       "problem": "depot->S2",
@@ -588,7 +588,7 @@
       "IDS cost": 34.0,
       "IDS stored": 55,
       "IDS expanded": 16997,
-      "IDS ms": 409.4
+      "IDS ms": 301.3
     },
     {
       "problem": "depot->S2",
@@ -600,7 +600,7 @@
       "IDS cost": 34.0,
       "IDS stored": 55,
       "IDS expanded": 16997,
-      "IDS ms": 482.4
+      "IDS ms": 261.3
     },
     {
       "problem": "depot->S2",
@@ -612,7 +612,7 @@
       "IDS cost": 34.0,
       "IDS stored": 55,
       "IDS expanded": 16997,
-      "IDS ms": 472.2
+      "IDS ms": 302.4
     },
     {
       "problem": "depot->S4",
@@ -624,7 +624,7 @@
       "IDS cost": Infinity,
       "IDS stored": 26,
       "IDS expanded": 189,
-      "IDS ms": 3.8
+      "IDS ms": 3.1
     },
     {
       "problem": "depot->S4",
@@ -636,7 +636,7 @@
       "IDS cost": Infinity,
       "IDS stored": 51,
       "IDS expanded": 12627,
-      "IDS ms": 300.4
+      "IDS ms": 202.7
     },
     {
       "problem": "depot->S4",
@@ -648,7 +648,7 @@
       "IDS cost": 30.0,
       "IDS stored": 60,
       "IDS expanded": 34003,
-      "IDS ms": 908.7
+      "IDS ms": 526.3
     },
     {
       "problem": "depot->S4",
@@ -660,7 +660,7 @@
       "IDS cost": 30.0,
       "IDS stored": 60,
       "IDS expanded": 34003,
-      "IDS ms": 810.0
+      "IDS ms": 528.7
     },
     {
       "problem": "depot->S4",
@@ -672,7 +672,7 @@
       "IDS cost": 30.0,
       "IDS stored": 60,
       "IDS expanded": 34003,
-      "IDS ms": 810.1
+      "IDS ms": 515.0
     },
     {
       "problem": "depot->S4",
@@ -684,7 +684,7 @@
       "IDS cost": 30.0,
       "IDS stored": 60,
       "IDS expanded": 34003,
-      "IDS ms": 838.4
+      "IDS ms": 592.1
     },
     {
       "problem": "full tour",

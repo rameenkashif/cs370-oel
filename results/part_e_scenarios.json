@@ -108,7 +108,7 @@
       "heuristic": "tunnel_mst",
       "A* expanded": "1735 \u00b1 350",
       "cost": "74.3 \u00b1 7.4",
-      "time ms": "22.1 \u00b1 4.7",
+      "time ms": "21.9 \u00b1 4.4",
       "suboptimal runs": 0,
       "mean gap": 0.0
     },
@@ -116,7 +116,7 @@
       "heuristic": "mst_plain",
       "A* expanded": "1415 \u00b1 319",
       "cost": "74.6 \u00b1 7.4",
-      "time ms": "14.3 \u00b1 3.2",
+      "time ms": "15.9 \u00b1 3.5",
       "suboptimal runs": 4,
       "mean gap": 0.37
     },
@@ -124,7 +124,7 @@
       "heuristic": "nearest",
       "A* expanded": "2929 \u00b1 339",
       "cost": "74.7 \u00b1 7.3",
-      "time ms": "29.9 \u00b1 6.7",
+      "time ms": "28.6 \u00b1 4.7",
       "suboptimal runs": 4,
       "mean gap": 0.4
     },
@@ -132,7 +132,7 @@
       "heuristic": "zero",
       "A* expanded": "3968 \u00b1 374",
       "cost": "74.3 \u00b1 7.4",
-      "time ms": "22.0 \u00b1 2.1",
+      "time ms": "31.1 \u00b1 6.0",
       "suboptimal runs": 0,
       "mean gap": 0.0
     }
