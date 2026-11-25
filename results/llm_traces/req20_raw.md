@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Use weighted A* to deliver S1, S2 and S4 without fords, then check the flood status of that plan.
 
-**Action (Act):** `plan_route({"algorithm": "wastar", "heuristic": "tunnel_mst", "avoid_terrain": ["ford"], "stops": ["S1", "S2", "S4"]})`
+**Action (Act):** `plan_route({"algorithm": "wastar", "avoid_terrain": ["ford"], "heuristic": "tunnel_mst", "stops": ["S1", "S2", "S4"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "wastar", "heuristic": "tunnel_mst", "cost": 90.0, "steps": 58, "delivery_order": [{"stop": "S1", "step": 19}, {"stop": "S4", "step": 36}, {"stop": "S2", "step": 58}], "terrain_steps": {"road": 32, "grass": 17, "mud": 9}, "ford_steps": [], "stops": ["S1", "S2", "S4"], "avoid_terrain": ["ford"], "nodes_expanded": 364, "uses_tunnel": true}`
 

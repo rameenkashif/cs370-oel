@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Avoid mud entirely and deliver everything.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["mud"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["mud"], "heuristic": "tunnel_mst"})`
 
 **Observation (Sense):** `{"ok": false, "validation_errors": ["infeasible: S1 (21, 5) is itself a mud cell, so it cannot be delivered while avoiding mud", "infeasible: S4 (15, 18) is itself a mud cell, so it cannot be delivered while avoiding mud"]}`
 

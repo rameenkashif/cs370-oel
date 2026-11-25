@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Deliver S1 while avoiding grass.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stops": ["S1"], "avoid_terrain": ["grass"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["grass"], "heuristic": "tunnel_mst", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 36.0, "steps": 25, "delivery_order": [{"stop": "S1", "step": 25}], "terrain_steps": {"road": 22, "mud": 2, "ford": 1}, "ford_steps": [21], "stops": ["S1"], "avoid_terrain": ["grass"], "nodes_expanded": 104, "uses_tunnel": false}`
 
@@ -12,7 +12,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"dam_used": false, "flood_steps_left": 0, "flood_duration": 15, "stops_that_need_a_ford": ["S2", "S3"], "stop_cells_that_are_fords": ["S3"], "current_plan_ford_steps": [21]}`
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stops": ["S1"], "avoid_terrain": ["grass", "ford"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["grass", "ford"], "heuristic": "tunnel_mst", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 101}`
 
@@ -20,7 +20,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"t": 25, "position": [8, 7], "rival": [13, 12], "cost_so_far": 25.0, "delivered": [], "stolen": [], "dam_used": false, "flood_steps_left": 0, "finished": false, "events": []}`
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stops": ["S1"], "avoid_terrain": ["grass"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["grass"], "heuristic": "tunnel_mst", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 36.0, "steps": 25, "delivery_order": [{"stop": "S1", "step": 25}], "terrain_steps": {"road": 22, "mud": 2, "ford": 1}, "ford_steps": [21], "stops": ["S1"], "avoid_terrain": ["grass"], "nodes_expanded": 104, "uses_tunnel": false}`
 

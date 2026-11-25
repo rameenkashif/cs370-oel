@@ -10,11 +10,11 @@
    "args": {
     "algorithm": "astar",
     "heuristic": "tunnel_mst",
-    "stops": [
+    "stop_order": [
      "S4",
      "S2"
     ],
-    "stop_order": [
+    "stops": [
      "S4",
      "S2"
     ]
@@ -181,11 +181,11 @@
    "args": {
     "algorithm": "astar",
     "heuristic": "tunnel_mst",
-    "stops": [
+    "stop_order": [
      "S4",
      "S2"
     ],
-    "stop_order": [
+    "stops": [
      "S4",
      "S2"
     ]

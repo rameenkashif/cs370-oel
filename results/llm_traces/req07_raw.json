@@ -10,15 +10,15 @@
    "args": {
     "algorithm": "astar",
     "heuristic": "tunnel_mst",
+    "stop_order": [
+     "S2",
+     "S1"
+    ],
     "stops": [
      "S2",
      "S1",
      "S3",
      "S4"
-    ],
-    "stop_order": [
-     "S2",
-     "S1"
     ]
    }
   },
@@ -276,15 +276,15 @@
    "args": {
     "algorithm": "astar",
     "heuristic": "tunnel_mst",
+    "stop_order": [
+     "S2",
+     "S1"
+    ],
     "stops": [
      "S2",
      "S1",
      "S3",
      "S4"
-    ],
-    "stop_order": [
-     "S2",
-     "S1"
     ]
    },
    "validation_errors": [],

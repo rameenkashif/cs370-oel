@@ -197,10 +197,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "ford"
-    ]
+    ],
+    "heuristic": "tunnel_mst"
    }
   },
   {
@@ -257,10 +257,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "ford"
-    ]
+    ],
+    "heuristic": "tunnel_mst"
    },
    "validation_errors": [
     "infeasible: S3 (22, 17) is itself a ford cell, so it cannot be delivered while avoiding ford"

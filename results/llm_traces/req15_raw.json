@@ -9,10 +9,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",
@@ -107,10 +107,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S1",
      "S2",
@@ -137,10 +137,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S2"
     ]
@@ -161,10 +161,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S3"
     ]
@@ -185,10 +185,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S1"
     ]
@@ -211,10 +211,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S4"
     ]
@@ -243,10 +243,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",
@@ -276,10 +276,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S1",
      "S2",
@@ -297,10 +297,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S2"
     ]
@@ -312,10 +312,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S3"
     ]
@@ -327,10 +327,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S1"
     ]
@@ -344,10 +344,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
-    "heuristic": "zero",
     "avoid_terrain": [
      "mud"
     ],
+    "heuristic": "zero",
     "stops": [
      "S4"
     ]

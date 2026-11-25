@@ -186,15 +186,15 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
+    "avoid_terrain": [
+     "ford"
+    ],
     "heuristic": "zero",
     "stops": [
      "S1",
      "S2",
      "S3",
      "S4"
-    ],
-    "avoid_terrain": [
-     "ford"
     ]
    }
   },
@@ -257,15 +257,15 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "ucs",
+    "avoid_terrain": [
+     "ford"
+    ],
     "heuristic": "zero",
     "stops": [
      "S1",
      "S2",
      "S3",
      "S4"
-    ],
-    "avoid_terrain": [
-     "ford"
     ]
    },
    "validation_errors": [

@@ -9,10 +9,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "grass"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1"
     ]
@@ -112,10 +112,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "grass"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1"
     ]
@@ -221,10 +221,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "grass"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1"
     ]
@@ -250,10 +250,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "grass"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1"
     ]

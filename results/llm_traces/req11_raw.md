@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Deliver S1, S2 and S4 without crossing any ford.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["ford"], "stops": ["S1", "S2", "S4"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["ford"], "heuristic": "tunnel_mst", "stops": ["S1", "S2", "S4"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 90.0, "steps": 55, "delivery_order": [{"stop": "S2", "step": 16}, {"stop": "S4", "step": 38}, {"stop": "S1", "step": 55}], "terrain_steps": {"road": 26, "grass": 20, "mud": 9}, "ford_steps": [], "stops": ["S1", "S2", "S4"], "avoid_terrain": ["ford"], "nodes_expanded": 1591, "uses_tunnel": true}`
 
@@ -16,7 +16,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"dam_used": false, "flood_steps_left": 0, "flood_duration": 15, "stops_that_need_a_ford": ["S2", "S3"], "stop_cells_that_are_fords": ["S3"], "current_plan_ford_steps": []}`
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["ford"], "stops": ["S1", "S2", "S4"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["ford"], "heuristic": "tunnel_mst", "stops": ["S1", "S2", "S4"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 90.0, "steps": 55, "delivery_order": [{"stop": "S2", "step": 16}, {"stop": "S4", "step": 38}, {"stop": "S1", "step": 55}], "terrain_steps": {"road": 26, "grass": 20, "mud": 9}, "ford_steps": [], "stops": ["S1", "S2", "S4"], "avoid_terrain": ["ford"], "nodes_expanded": 1591, "uses_tunnel": true}`
 

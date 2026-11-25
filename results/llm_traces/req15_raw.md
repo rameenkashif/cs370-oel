@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Avoid mud entirely and deliver everything.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["mud"], "stops": ["S1", "S2", "S3", "S4"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["mud"], "heuristic": "tunnel_mst", "stops": ["S1", "S2", "S3", "S4"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 
@@ -16,23 +16,23 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"dam_used": false, "flood_steps_left": 0, "flood_duration": 15, "stops_that_need_a_ford": ["S2", "S3"], "stop_cells_that_are_fords": ["S3"], "current_plan_ford_steps": null}`
 
-**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "avoid_terrain": ["mud"], "stops": ["S1", "S2", "S3", "S4"]})`
+**Action (Act):** `plan_route({"algorithm": "ucs", "avoid_terrain": ["mud"], "heuristic": "zero", "stops": ["S1", "S2", "S3", "S4"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 
-**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "avoid_terrain": ["mud"], "stops": ["S2"]})`
+**Action (Act):** `plan_route({"algorithm": "ucs", "avoid_terrain": ["mud"], "heuristic": "zero", "stops": ["S2"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 
-**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "avoid_terrain": ["mud"], "stops": ["S3"]})`
+**Action (Act):** `plan_route({"algorithm": "ucs", "avoid_terrain": ["mud"], "heuristic": "zero", "stops": ["S3"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 
-**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "avoid_terrain": ["mud"], "stops": ["S1"]})`
+**Action (Act):** `plan_route({"algorithm": "ucs", "avoid_terrain": ["mud"], "heuristic": "zero", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 
-**Action (Act):** `plan_route({"algorithm": "ucs", "heuristic": "zero", "avoid_terrain": ["mud"], "stops": ["S4"]})`
+**Action (Act):** `plan_route({"algorithm": "ucs", "avoid_terrain": ["mud"], "heuristic": "zero", "stops": ["S4"]})`
 
 **Observation (Sense):** `{"ok": false, "error": "no route found (search failed)", "expanded": 241}`
 

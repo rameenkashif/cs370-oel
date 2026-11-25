@@ -9,10 +9,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "mud"
-    ]
+    ],
+    "heuristic": "tunnel_mst"
    }
   },
   {
@@ -109,10 +109,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "mud"
-    ]
+    ],
+    "heuristic": "tunnel_mst"
    },
    "validation_errors": [
     "infeasible: S1 (21, 5) is itself a mud cell, so it cannot be delivered while avoiding mud",

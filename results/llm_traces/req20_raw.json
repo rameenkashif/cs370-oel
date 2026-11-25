@@ -9,10 +9,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "wastar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "ford"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",
@@ -96,10 +96,10 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "wastar",
-    "heuristic": "tunnel_mst",
     "avoid_terrain": [
      "ford"
     ],
+    "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",

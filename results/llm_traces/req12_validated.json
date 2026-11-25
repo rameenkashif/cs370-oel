@@ -9,12 +9,12 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
+    "avoid_terrain": [
+     "grass"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1"
-    ],
-    "avoid_terrain": [
-     "grass"
     ]
    }
   },
@@ -82,13 +82,13 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
-    "stops": [
-     "S1"
-    ],
     "avoid_terrain": [
      "grass",
      "ford"
+    ],
+    "heuristic": "tunnel_mst",
+    "stops": [
+     "S1"
     ]
    }
   },
@@ -137,12 +137,12 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
+    "avoid_terrain": [
+     "grass"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1"
-    ],
-    "avoid_terrain": [
-     "grass"
     ]
    }
   },
@@ -276,12 +276,12 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
+    "avoid_terrain": [
+     "grass"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1"
-    ],
-    "avoid_terrain": [
-     "grass"
     ]
    },
    "validation_errors": [],
@@ -297,13 +297,13 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
-    "heuristic": "tunnel_mst",
-    "stops": [
-     "S1"
-    ],
     "avoid_terrain": [
      "grass",
      "ford"
+    ],
+    "heuristic": "tunnel_mst",
+    "stops": [
+     "S1"
     ]
    },
    "validation_errors": [],
@@ -321,12 +321,12 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "astar",
+    "avoid_terrain": [
+     "grass"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1"
-    ],
-    "avoid_terrain": [
-     "grass"
     ]
    },
    "validation_errors": [],

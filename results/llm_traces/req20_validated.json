@@ -9,14 +9,14 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "wastar",
+    "avoid_terrain": [
+     "ford"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",
      "S4"
-    ],
-    "avoid_terrain": [
-     "ford"
     ]
    }
   },
@@ -96,14 +96,14 @@
    "tool": "plan_route",
    "args": {
     "algorithm": "wastar",
+    "avoid_terrain": [
+     "ford"
+    ],
     "heuristic": "tunnel_mst",
     "stops": [
      "S1",
      "S2",
      "S4"
-    ],
-    "avoid_terrain": [
-     "ford"
     ]
    },
    "validation_errors": [],

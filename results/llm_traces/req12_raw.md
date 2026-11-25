@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Deliver S1 while avoiding grass.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["grass"], "stops": ["S1"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["grass"], "heuristic": "tunnel_mst", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 36.0, "steps": 25, "delivery_order": [{"stop": "S1", "step": 25}], "terrain_steps": {"road": 22, "mud": 2, "ford": 1}, "ford_steps": [21], "stops": ["S1"], "avoid_terrain": ["grass"], "nodes_expanded": 104, "uses_tunnel": false}`
 
@@ -16,7 +16,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"t": 25, "position": [8, 7], "rival": [13, 12], "cost_so_far": 25.0, "delivered": [], "stolen": [], "dam_used": false, "flood_steps_left": 0, "finished": false, "events": []}`
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["grass"], "stops": ["S1"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["grass"], "heuristic": "tunnel_mst", "stops": ["S1"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 36.0, "steps": 25, "delivery_order": [{"stop": "S1", "step": 25}], "terrain_steps": {"road": 22, "mud": 2, "ford": 1}, "ford_steps": [21], "stops": ["S1"], "avoid_terrain": ["grass"], "nodes_expanded": 104, "uses_tunnel": false}`
 

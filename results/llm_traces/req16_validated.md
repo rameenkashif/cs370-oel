@@ -20,7 +20,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 **Observation (Sense):** `{"ok": true, "algorithm": "ucs", "heuristic": "zero", "cost": 111.0, "steps": 61, "delivery_order": [{"stop": "S1", "step": 19}, {"stop": "S3", "step": 32}, {"stop": "S4", "step": 44}, {"stop": "S2", "step": 61}], "terrain_steps": {"road": 31, "grass": 16, "mud": 11, "ford": 3}, "ford_steps": [25, 32, 55], "stops": ["S1", "S2", "S3", "S4"], "avoid_terrain": [], "nodes_expanded": 5187, "uses_tunnel": true}`
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "avoid_terrain": ["ford"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "avoid_terrain": ["ford"], "heuristic": "tunnel_mst"})`
 
 **Observation (Sense):** `{"ok": false, "validation_errors": ["infeasible: S3 (22, 17) is itself a ford cell, so it cannot be delivered while avoiding ford"]}`
 

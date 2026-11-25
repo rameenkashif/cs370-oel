@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Deliver S4 first, then S2, under cost 140, using our admissible heuristic.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stops": ["S4", "S2"], "stop_order": ["S4", "S2"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stop_order": ["S4", "S2"], "stops": ["S4", "S2"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 56.0, "steps": 29, "delivery_order": [{"stop": "S4", "step": 12}, {"stop": "S2", "step": 29}], "terrain_steps": {"road": 9, "grass": 8, "mud": 11, "ford": 1}, "ford_steps": [23], "stops": ["S2", "S4"], "avoid_terrain": [], "nodes_expanded": 433, "uses_tunnel": true}`
 

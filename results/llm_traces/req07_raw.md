@@ -4,7 +4,7 @@ Rameen Kashif (456834) | Manal Aslam (465734) | Zainab Ali Bangash (486688)
 
 > Deliver S2, then S1, then the remaining stops.
 
-**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stops": ["S2", "S1", "S3", "S4"], "stop_order": ["S2", "S1"]})`
+**Action (Act):** `plan_route({"algorithm": "astar", "heuristic": "tunnel_mst", "stop_order": ["S2", "S1"], "stops": ["S2", "S1", "S3", "S4"]})`
 
 **Observation (Sense):** `{"ok": true, "algorithm": "astar", "heuristic": "tunnel_mst", "cost": 123.0, "steps": 66, "delivery_order": [{"stop": "S2", "step": 13}, {"stop": "S1", "step": 37}, {"stop": "S4", "step": 54}, {"stop": "S3", "step": 66}], "terrain_steps": {"road": 30, "grass": 20, "mud": 13, "ford": 3}, "ford_steps": [7, 19, 66], "stops": ["S1", "S2", "S3", "S4"], "avoid_terrain": [], "nodes_expanded": 1262, "uses_tunnel": true}`
 
